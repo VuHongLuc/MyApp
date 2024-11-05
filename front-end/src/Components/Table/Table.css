@@ -1,0 +1,66 @@
+.btn-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn-management {
+  width: 50px;
+  height: 20px;
+}
+
+.btn-delete {
+  background-color: rgb(225, 0, 0);
+}
+
+.btn-edit {
+  background-color: rgb(116, 0, 225);
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #bbbaba;
+  height: 35px;
+  font-size: 15px;
+}
+
+.student-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.col-stt{
+  width: 10%;
+}
+.col-name{
+  width: 25%;
+}
+.col-age{
+  width: 10%;
+}
+.col-class{
+  width: 15%;
+}
+.col-phone{
+  width: 20%;
+}
+.col-mng{
+  width: 20%;
+}
+
